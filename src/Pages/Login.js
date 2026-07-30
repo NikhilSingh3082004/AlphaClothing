@@ -49,7 +49,9 @@ export default function Login() {
             <input type="text" placeholder="Username" name="user" id="user"/>
             <input type="password" placeholder="password" name="pass" id="pass"/>
             <div className="recover">
-                <a href="#">Forgot Password?</a>
+                <button type="button" className="forgot-btn">
+                     Forgot Password?
+                </button>
                 <input type="submit" value="Login" className="sub"/>
         {isLoading && <Loading />}
             </div>

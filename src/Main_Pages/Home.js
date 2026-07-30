@@ -109,8 +109,8 @@ export default function Home() {
         <a href="https://www.facebook.com" target = "_blank"  rel="noopener noreferrer" ><i className="fa fa-facebook"></i></a>  
         <a href="https://www.instagram.com/harsh_kumar739/?hl=en" target = "_blank"  rel="noopener noreferrer"><i className="fa fa-instagram"></i></a>
         <a href="https://www.linkedin.com/in/nikhil-kumar-singh-2a5a61269/" target="_blank"  rel="noopener noreferrer"><i className="fa fa-linkedin"></i></a>
-        <a href="https://www.x.com" target = "_blank" ><i className="fa fa-twitter"  rel="noopener noreferrer"></i></a>
-        <a href="https://www.youtube.com" target = "_blank" ><i className="fa fa-youtube"  rel="noopener noreferrer"></i></a>
+        <a href="https://www.x.com" target = "_blank"  rel="noopener noreferrer"><i className="fa fa-twitter"  rel="noopener noreferrer"></i></a>
+        <a href="https://www.youtube.com" target = "_blank"  rel="noopener noreferrer"><i className="fa fa-youtube"  rel="noopener noreferrer"></i></a>
     </div>
 </div>
 </footer>

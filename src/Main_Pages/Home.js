@@ -55,20 +55,20 @@ export default function Home() {
 
         </div>
         <div >
-            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-TodaysTopHits-Sectionheader.jpg" className="m1"/>
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-TodaysTopHits-Sectionheader.jpg" className="m1" alt=''/>
             <div className="brands" onClick={goto}>
-                <img src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/retaillabs/2023/9/27/91ba6f01-8b03-42ea-a56b-f7b1ae9955821695813688671-unnamed--18-.png"  className="brandImg"/>
-                <img src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/9/26/845f5ff3-ea20-4b4a-9054-6bea864971291695728676810-image_png_28699550.png" className="brandImg"/>
-                <img src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/9/23/ae8b7bc0-8d33-49b6-a27a-cd603cedf7db1695482096735-image_png1772110962.png" className="brandImg"/>
-                <img src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/9/22/ac252347-7082-4716-b008-3a1a37cf89641695381651437-image_png_1793986078.png" className="brandImg"/>
-                <img src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/retaillabs/2023/9/27/ce64c71e-65c2-46fd-be0a-7024216cb8541695795383910-image_png_1413216380.png" className="brandImg"/>
-                <img src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/9/22/801521ae-0867-45f5-b187-b7de6da1b5fa1695381521158-image_jpeg_75093811.jpg" className="brandImg"/>
+                <img src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/retaillabs/2023/9/27/91ba6f01-8b03-42ea-a56b-f7b1ae9955821695813688671-unnamed--18-.png"  className="brandImg" alt=""/>
+                <img src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/9/26/845f5ff3-ea20-4b4a-9054-6bea864971291695728676810-image_png_28699550.png" className="brandImg" alt=""/>
+                <img src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/9/23/ae8b7bc0-8d33-49b6-a27a-cd603cedf7db1695482096735-image_png1772110962.png" className="brandImg" alt=""/>
+                <img src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/9/22/ac252347-7082-4716-b008-3a1a37cf89641695381651437-image_png_1793986078.png" className="brandImg" alt=""/>
+                <img src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/retaillabs/2023/9/27/ce64c71e-65c2-46fd-be0a-7024216cb8541695795383910-image_png_1413216380.png" className="brandImg" alt=""/>
+                <img src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/9/22/801521ae-0867-45f5-b187-b7de6da1b5fa1695381521158-image_jpeg_75093811.jpg" className="brandImg" alt=""/>
             </div>
         </div>
         <footer className="footer-distributed">
 
 <div className="footer-left">
-    <img src="Utilities/vector.png" className="logo"/>
+    <img src="Utilities/vector.png" className="logo" alt=""/>
 
     <p className="footer-links">
         <a href="MCargos.html">Men</a>

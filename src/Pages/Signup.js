@@ -10,9 +10,7 @@ export default function Signup() {
   const [isLoading, setIsLoading] = useState(false);
 
   
-  function clearErrors() {
-    setErrors({});
-  }
+
   
   function handleSubmit(event) {
     event.preventDefault();
@@ -45,7 +43,7 @@ export default function Signup() {
     {
         newErrors.email = '*Provide email in correct format'
     }
-    if(mob.length != 10)
+    if(mob.length !== 10)
     {
         newErrors.mob = '*Provide mob no in correct format'
         
@@ -54,7 +52,7 @@ export default function Signup() {
     {
         newErrors.pass= "*Password should contain atleast one lowercase,one Uppercase,numeric value,special character,and length should be between 5-15 charaters"
     }
-    if(repass != pass && pass !== "")
+    if(repass !== pass && pass !== "")
     {
         newErrors.repass= "*Password Doesn't match"
     }
@@ -92,15 +90,15 @@ export default function Signup() {
           <input type='text' placeholder='Name' name='name' id='name' />
           <span className='error'>{errors.name}</span>
 
-            <input type="text" placeholder="Email-id" name="email" id="email"/><span class="error" >{errors.email}</span>
-            <input type="tel" placeholder="Mobile no."  name="mob" id="mob" /><span class="error" >{errors.mob}</span>
-            <input type="password" placeholder="password" name="pass" id="pass"/><span class="error" >{errors.pass}</span>
-            <input type="password" placeholder="Re-Enter Password" name="rpass" id="rpass"/><span class="error" >{errors.repass}</span>
+            <input type="text" placeholder="Email-id" name="email" id="email"/><span className="error" >{errors.email}</span>
+            <input type="tel" placeholder="Mobile no."  name="mob" id="mob" /><span className="error" >{errors.mob}</span>
+            <input type="password" placeholder="password" name="pass" id="pass"/><span className="error" >{errors.pass}</span>
+            <input type="password" placeholder="Re-Enter Password" name="rpass" id="rpass"/><span className="error" >{errors.repass}</span>
 
           <div className='terms'>
             <input type='checkbox' id='check' />
             <label htmlFor='check'>
-              I agree to the these <a href='#'>Terms & condition</a>
+              I agree to the these <a href='/terms'>Terms & condition</a>
             </label>
             <span className='error'>{errors.checkbox}</span>
           </div>

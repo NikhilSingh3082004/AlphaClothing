@@ -7,9 +7,9 @@ export default function Buy() {
   const [errors, setErrors] = useState({});
   const navigate = useNavigate();
 
-  const clearErrors = () => {
-    setErrors({});
-  };
+  //const clearErrors = () => {
+   // setErrors({});
+  //};
 
   const validateForm = () => {
     const name = document.getElementById('name').value;
@@ -88,21 +88,21 @@ export default function Buy() {
           <div className="left" >
                         <h3>Billing Adress</h3>
 
-                        <label for="name">Full name  </label><span className="error">{errors.name}</span>
+                        <label htmlFor="name">Full name  </label><span className="error">{errors.name}</span>
                         <input type="text" name="name" placeholder="Full name" id="name"/> 
                         
                         <label for="email">Email-id</label><span className="error">{errors.email}</span>
                         <input type="text" name="email" placeholder="Email" id="email" />
-                        <label for="address">Address</label><span className="error">{errors.address}</span>
+                        <label htmlFor="address">Address</label><span className="error">{errors.address}</span>
                         <input type= "text" name="address" placeholder="Address" id="address" />
-                        <label for="city">City</label><span className="error">{errors.city}</span> 
+                        <label htmlFor="city">City</label><span className="error">{errors.city}</span> 
                         <input type="text" name="city" placeholder="Enter city" id="city" />
 
                         <div className="xtra">
 
                             <label>
                                 State
-                                <select id="drop">
+                                <select id="drop" defaultValue="0">
                                     <option value="0" selected disabled>---Choose State---</option>
                                     <option value="1">Bihar</option>
                                     <option value="2">Gujarat</option>
@@ -127,23 +127,23 @@ export default function Buy() {
                 
 
                     Accepted cards
-                    <img src="Utilities/visa.jpg" width="50"/>
-                    <img src="Utilities/mastercard.webp" width="50"/>
-                    <img src="Utilities/sbi.webp" width="50"/>
+                    <img src="Utilities/visa.jpg" width="50" alt="Visa"/>
+                    <img src="Utilities/mastercard.webp" width="50" alt="MasterCard" />
+                    <img src="Utilities/sbi.webp" width="50" alt="SBI Card"/>
                     
 
 
-                    <label for="card">Credit card number</label><span className="error">{errors.card}</span>
+                    <label htmlFor="card">Credit card number</label><span className="error">{errors.card}</span>
                     <input type="number" name="card" placeholder="Enter card numnber" id="card" />
-                    <label for="exp">Exp month</label><span className="error">{errors.exp}</span>
+                    <label htmlFor="exp">Exp month</label><span className="error">{errors.exp}</span>
                     <input type="number" name="exp" placeholder="Enter month" id="exp" />
 
                     <div className="xtra">
 
                         <label>
                             Exp year
-                            <select id="eyr">
-                                <option value="0" selected disabled>---Choose Year---</option>
+                            <select id="eyr" defaultValue="0">
+                                <option value="0" disabled>---Choose Year---</option>
                                 <option value="1">2020</option>
                                 <option value="2">2021</option>
                                 <option value="3">2022</option>

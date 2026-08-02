@@ -63,8 +63,7 @@ export default function Signup() {
 
     if (Object.keys(newErrors).length === 0) {
       setIsLoading(true);
-      // axios.post('https://alphaclothing.onrender.com/register', { username, name, email, mob, pass })
-      axios.post('http://localhost:5000/register',{username, name, email, mob, pass})
+      axios.post(`${process.env.REACT_APP_API_URL}/register`,{username, name, email, mob, pass})
         .then(result => {
           console.log(result);
           window.alert("Signed Up successfully");

@@ -20,9 +20,8 @@ export default function Login() {
 
 
         
-        setIsLoading(true);
-        // axios.post('https://alphaclothing.onrender.com/login',{username,pass})
-        axios.post('http://localhost:5000/login',{username,pass})
+        setIsLoading(true);        
+        axios.post(`${process.env.REACT_APP_API_URL}/login`,{username,pass})
         .then(result => {
             console.log(result)
             if(result.data === "Success"){

@@ -9,7 +9,7 @@ export default function Profile() {
 
     useEffect(() => {
         // Fetch user data when the component mounts
-        axios.get(`http://localhost:5000/user/Abhi123@`)
+        axios.get(`${process.env.REACT_APP_API_URL}/user/${username}`)
             .then(response => {
                 setUserData(response.data);
             })
